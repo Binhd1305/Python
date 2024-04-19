@@ -1,14 +1,14 @@
 class Television:
     # Class Constants
-    MIN_VOLUME = 0
-    MAX_VOLUME = 2
-    MIN_CHANNEL = 0
-    MAX_CHANNEL = 3
+    MIN_VOLUME: int = 0
+    MAX_VOLUME: int = 2
+    MIN_CHANNEL: int = 0
+    MAX_CHANNEL: int = 3
 
     def __init__(self):
-        self.__mute = False
+        self.__mute: bool = False
         self.__volume = Television.MIN_VOLUME
-        self.__status = False
+        self.__status: bool = False
         self.__channel = Television.MIN_CHANNEL
 
     def power(self):
