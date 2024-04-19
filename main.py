@@ -1,5 +1,5 @@
 
-
+from television import *
 def main():
     # Television 1
     tv_1 = Television()
